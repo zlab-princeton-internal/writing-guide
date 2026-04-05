@@ -184,11 +184,19 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 
 **F.9** **Y-axis tick values must be round numbers.** Do not let matplotlib auto-generate tick values from the data range — values like 30.3, 71.1, 96.9 look sloppy and unprofessional. Manually set ticks to clean integers (e.g., 30, 50, 70).
 
+> **Bad example** — Y-axis ticks are auto-generated decimals (30.3, 50.8, 71.3, etc.). Also note the widow line at the top of the page from the previous section.
+>
+> <img src="examples/bad_yaxis_ticks.png" width="700">
+
 
 **F.10** **Never let a single line of text from the previous section spill onto the next page.** If a paragraph ends with just one line on a new page (a "widow"), rewrite to pull it back or push more text forward. The same applies to section endings — a one-line orphan at the top of a page looks careless.
 
 
 **F.11** **Avoid placing a narrow/sparse figure at the top of a page with large whitespace on both sides.** If a figure does not fill the column or page width, it leaves awkward empty space — especially noticeable at the top of a page. Either use `wrapfigure` to embed it alongside text, or if it must occupy its own row, place it in the middle of the page with text above and below — not at the top or bottom where the whitespace is most conspicuous.
+
+> **Bad example** — A narrow figure at the top of the page with large whitespace on both sides.
+>
+> <img src="examples/bad_sparse_figure.png" width="700">
 
 
 ## **Numbers & Precision**
