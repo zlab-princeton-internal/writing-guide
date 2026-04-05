@@ -1,5 +1,7 @@
 **Writing Guide - Zhuang Liu Lab @ Princeton University**
 
+[中文版](README_CN.md)
+
 **Good writing boosts the paper's contributions to the scientific community by providing more clarity on your messages. For your own benefit, good writing helps the work disseminate, and it is often a night-and-day difference. You've put in months of hard work on the project, and it is absolutely worth it to improve the writing by following this guide.**
 
 **1\. Please read through this guide before you start writing, so we get it right the first time.**   
@@ -242,7 +244,8 @@ N.2 Either use numbers that are in a math environment ($82.8$) or not (82.8), bu
 **P.6** **Remove outdated files.** Old figures, unused `.bib` files, previous submission versions, `rebuttal.tex`, etc. should be removed from the Overleaf project before sharing or submitting. Back up locally first if needed, then delete from Overleaf. A clean project is easier to navigate and less error-prone.
 
 
-**LLM Use:**  
+## **LLM Use**
+
 **G.0** Do not copy-paste whole paragraphs; only take suggestions.
 
 
@@ -290,7 +293,8 @@ N.2 Either use numbers that are in a math environment ($82.8$) or not (82.8), bu
 **SUB.9** Make sure to submit an 8/9-page version to OpenReview 30 minutes before the deadline.
 
 
-**arXiv Submission:**  
+## **arXiv Submission**
+
 **A.1** Check with collaborators/PI what paper category (e.g., cs.CV, cs.ML, cs.CL) is most appropriate for designating as primary and cross-listed on arXiv.
 
 
@@ -315,7 +319,8 @@ N.2 Either use numbers that are in a math environment ($82.8$) or not (82.8), bu
 A.8 Use "\\section\*{\\Large Appendix}” at the start of appendix. Do not call it “supplementary materials”.
 
 
-**Code Release:**  
+## **Code Release**
+
 **C.1** Make the links in the repo clickable, use proper markdown in README,  
 
 
