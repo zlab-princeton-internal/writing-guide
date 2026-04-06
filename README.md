@@ -49,29 +49,6 @@
 **S.7** **The conclusion must go beyond the abstract.** You can briefly restate the key results, but the conclusion must add implications, interpretation, or forward-looking discussion that the abstract does not contain. A conclusion that merely paraphrases the abstract wastes space and reads as filler. Consider using "Conclusion and Discussion" as the section title — this naturally invites deeper reflection and avoids the trap of a pure summary.
 
 
-## **Appendix**
-
-**AP.1** **Apply the same writing and layout standards to the appendix as to the main body.** The appendix is not a dumping ground. All rules in this guide — layout, figures, formatting, paragraph structure — apply equally.
-
-
-**AP.2** **If the appendix is long (>5 pages), add a table of contents at the beginning.** Use `\minitoc` or a manual list with `\hyperref` links to each appendix section. This helps readers navigate directly to the section they need.
-
-
-**AP.3** **No pages with a single small figure and large whitespace above and below.** If a figure does not fill the page, either combine it with another figure, add more text around it, or resize it to fill the space. A page with one small figure floating in white space looks unfinished.
-
-
-**AP.4** **No excessive whitespace around figures.** Two figures on one page with large gaps above, below, and between them looks sloppy. Figures should be sized and positioned to fill the page naturally.
-
-
-**AP.5** **Consistent paragraph formatting.** Some paragraphs start on a new line after a bold heading, others continue on the same line. Pick one style and use it consistently throughout the appendix.
-
-
-**AP.6** **Appendix paragraphs should not all be 1–3 lines.** A series of 1–2 sentence paragraphs reads like bullet points, not prose. Merge related points into substantive paragraphs. Paragraphs can be somewhat shorter than in the main body, but should still be real paragraphs.
-
-
-**AP.7** **Consider using `\newpage` at section boundaries in the appendix to isolate layout impact.** The appendix is figure/table-heavy, and moving one figure often cascades into layout problems on subsequent pages. Inserting `\newpage` at section breaks prevents this cascade. However, do NOT use `\newpage` if it would leave the previous page more than half empty — that looks worse than the cascade it prevents. Balance is key.
-
-
 ## **Citations & Related Work**
 
 **C.1** Make sure to get all citations precise, i.e., it is relevant to the thing you are saying and also more relevant than the ones you don't cite (i.e., they are relevant and the most relevant). Make sure to use \\citet and \\citep correctly:
@@ -184,19 +161,19 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 * Some other recommendations: use a pure black border for boxes, a sharp arrow.  
       
 
-**F.9** **Y-axis tick values must be round numbers.** Do not let matplotlib auto-generate tick values from the data range — values like 30.3, 71.1, 96.9 look sloppy and unprofessional. Manually set ticks to clean integers (e.g., 30, 50, 70).
+**F.9** **Y-axis tick values must be round numbers.** Do not let matplotlib auto-generate tick values from the data range — values like 30.3, 71.1, 96.9 are not acceptable. Manually set ticks to clean integers (e.g., 30, 50, 70).
 
-> **Bad example** — Y-axis ticks are auto-generated decimals (30.3, 50.8, 71.3, etc.). Also note the widow line at the top of the page from the previous section.
+> **Bad example** — Y-axis ticks are auto-generated decimals (30.3, 50.8, 71.3, etc.). Also note the widow line at the top of the page.
 >
 > <img src="examples/bad_yaxis_ticks.png" width="700">
 
 
-**F.10** **Never let a single line of text from the previous section spill onto the next page.** If a paragraph ends with just one line on a new page (a "widow"), rewrite to pull it back or push more text forward. The same applies to section endings — a one-line orphan at the top of a page looks careless.
+**F.10** **Do not let a single line of text from the previous section spill onto the next page ("widow").** Rewrite to pull it back or push more text forward. See the bad example in F.9 above — there is also a widow line at the top of that page.
 
 
-**F.11** **Avoid placing a narrow/sparse figure at the top of a page with large whitespace on both sides.** If a figure does not fill the column or page width, it leaves awkward empty space — especially noticeable at the top of a page. Either use `wrapfigure` to embed it alongside text, or if it must occupy its own row, place it in the middle of the page with text above and below — not at the top or bottom where the whitespace is most conspicuous.
+**F.11** **Do not place a narrow/sparse figure at the top of a page with large whitespace on both sides.** Use `wrapfigure` to embed it alongside text, or place it mid-page with text above and below.
 
-> **Bad example** — A narrow figure at the top of the page with large whitespace on both sides.
+> **Bad example** — A narrow figure at the top of the page.
 >
 > <img src="examples/bad_sparse_figure.png" width="700">
 
@@ -242,6 +219,29 @@ N.2 Either use numbers that are in a math environment ($82.8$) or not (82.8), bu
 
 
 **P.6** **Remove outdated files.** Old figures, unused `.bib` files, previous submission versions, `rebuttal.tex`, etc. should be removed from the Overleaf project before sharing or submitting. Back up locally first if needed, then delete from Overleaf. A clean project is easier to navigate and less error-prone.
+
+
+## **Appendix**
+
+**AP.1** **Apply the same writing and layout standards to the appendix as to the main body.** All rules in this guide — layout, figures, formatting, paragraph structure — apply equally.
+
+
+**AP.2** **If the appendix is long (>5 pages), add a table of contents at the beginning.** Use `\minitoc` or a manual list with `\hyperref` links to each appendix section.
+
+
+**AP.3** **Do not have a page with a single small figure and large whitespace.** Combine it with another figure, add text around it, or resize it.
+
+
+**AP.4** **Do not have excessive whitespace around figures.** Figures should be sized and positioned to fill the page naturally.
+
+
+**AP.5** **Keep paragraph formatting consistent.** Pick one style (e.g., new line after bold heading vs. continuing on the same line) and use it throughout.
+
+
+**AP.6** **Appendix paragraphs should not all be 1–3 lines.** Merge related points into substantive paragraphs. They can be shorter than main body paragraphs, but should still be real paragraphs.
+
+
+**AP.7** **Consider using `\newpage` at section boundaries to isolate layout impact.** Moving one figure in a figure-heavy appendix often cascades into layout problems on subsequent pages. `\newpage` at section breaks prevents this — but do not use it if it would leave the previous page more than half empty.
 
 
 ## **LLM Use**
