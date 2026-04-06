@@ -1,11 +1,13 @@
 **Writing Guide - Zhuang Liu Lab @ Princeton University**
 
+*By [Zhuang Liu](https://liuzhuang13.github.io/)*
+
 [中文版](README_CN.md)
 
 **Good writing boosts the paper's contributions to the scientific community by providing more clarity on your messages. For your own benefit, good writing helps the work disseminate, and it is often a night-and-day difference. You've put in months of hard work on the project, and it is absolutely worth it to improve the writing by following this guide.**
 
 **1\. Please read through this guide before you start writing, so we get it right the first time.**   
-**2\. Even with a full draft ready, in past students’ experience, it can take at least 3 days’ full-time work to meet all requirements. Please go through each requirement very carefully, and start early.**
+**2\. Even with a full draft ready, in past students’ experience, it can take at least 5 days’ full-time work to meet all requirements. Please go through each requirement very carefully, and start early.**
 
 # **Focus - Readers & Core Contributions & Evidence**
 
