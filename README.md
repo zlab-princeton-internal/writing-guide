@@ -360,5 +360,7 @@ C.6 Use Claude Code for better readme structure.
 
 ## TODO
 
-- Add more bad/good examples for each rule
-- Create three versions: a concise version, a standard version, and an extended version with explanations
+- **Format**: Each rule uses bold for the core rule, followed by a brief explanation in normal text. Examples use collapsible `<details>` sections.
+- **Split compound rules**: Some rules currently cover multiple points — split them into separate items.
+- **Add more examples**: Add bad/good examples for more rules (collapsible).
+- **Figure guide**: Move figure-related rules (F.*) into a separate Figure Guide document.
