@@ -355,3 +355,10 @@ C.6 Use Claude Code for better readme structure.
   * \\def\\UrlBreaks{\\do\\/\\do-}  
 * Author comments  
   * E.g. \\newcommand{\\ab}\[1\]{{\\color{orange}\[AB: \#1\]}}
+
+---
+
+## TODO
+
+- Add more bad/good examples for each rule
+- Create three versions: a concise version, a standard version, and an extended version with explanations
