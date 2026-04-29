@@ -113,6 +113,9 @@
 **C.13** **确保每条引用的参考文献都真实存在。** `.bib` 文件中的每个条目必须对应一篇真实的、已发表或公开可用的论文。验证标题、作者和年份是否正确——不要依赖 LLM 生成的 bib 条目而不核实。参考文献列表中错误的作者、虚构的标题或不存在的论文是严重错误，会损害可信度。
 
 
+**C.14** **如果 related work 过长，或者它打破了从 introduction 到 method 的 motivation flow，可以考虑把 related work 放到 conclusion 之前。** 默认放在 introduction 之后对大多数论文都没问题，但过长的 related work 会打断叙事节奏。例子参考 [ConvNeXt](https://arxiv.org/abs/2201.03545)，related work 放在了论文末尾。
+
+
 ## **语言风格与语气**
 
 **L.1** 能缩短的词语或短语就缩短，不损失任何含义。例如：xx is a method that does .... -> xx does …

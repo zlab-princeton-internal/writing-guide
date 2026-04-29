@@ -113,6 +113,9 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 **C.13** **Ensure every cited reference actually exists.** Every entry in your `.bib` file must correspond to a real, published or publicly available paper. Verify that the title, authors, and year are correct — do not rely on LLM-generated bib entries without checking. A wrong author, a made-up title, or a non-existent paper in your reference list is a serious error that undermines credibility.
 
 
+**C.14** **Consider placing related work before the conclusion** if it is long, or if it breaks the motivation flow from the introduction to the method. The default placement (right after the introduction) is fine for most papers, but a long related work section can interrupt the narrative momentum. See [ConvNeXt](https://arxiv.org/abs/2201.03545) for an example where related work appears at the end.
+
+
 ## **Language Style & Tone**
 
 **L.1** Cut/shorten a word or phrase without losing any meaning, whenever you can. e.g., xx is a method that does .... -\> xx does …
