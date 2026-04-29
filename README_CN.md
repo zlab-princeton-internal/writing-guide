@@ -77,6 +77,7 @@
 * **所有条目删除 page/volume 等信息。**
 * **会议论文用 @inproceedings，arXiv 用 @article。**
 * **检查论文是否有正式发表版本。如果有，在 .bib 中使用发表版本而非 arXiv 版本。**
+* **从 Google Scholar 获取 BibTeX entry（最接近我们的格式），再按上面规则修改。避免从 arXiv 或 Semantic Scholar 直接拿——它们的格式不统一。**
 
 
 **C.5** 格式不确定时，参考[这篇论文](https://arxiv.org/pdf/2403.08632)的做法。引用颜色使用柔和色调（不要红色、粉色或浅绿色）。可以使用参考论文中的蓝色——从 arXiv 下载 LaTeX 源文件。

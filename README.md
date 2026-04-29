@@ -77,6 +77,7 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 * **Delete the page/volume info, etc, for all entries.**  
 * **For conferences we should use @inproceedings, and for arXiv use @article, for the bib entry.**   
 * **Check if a paper has a published version. If there is, use it in .bib instead of the arXiv version.**  
+* **Get BibTeX entries from Google Scholar (closest to our format), then modify to match the rules above. Avoid arXiv or Semantic Scholar — their formats are inconsistent.**
 
 
 **C.5** If you are unsure about anything regarding formatting, check what [this paper](https://arxiv.org/pdf/2403.08632) did. Use a soft color for citations (no red, pink, or light green). You can use the blue color of the referred paper - download the LaTeX files from arXiv.
