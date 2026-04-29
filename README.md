@@ -147,7 +147,7 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 
 ## **Figures & Tables**
 
-There is too much to say about figures and tables to fit here. See the dedicated [**Figure & Table Guide**](https://github.com/zlab-princeton-internal/figure-guide) — it covers font, format, visual style, layout, plots, and more.
+Figures and tables are so important that they deserve their own guide. See the dedicated [**Figure & Table Guide**](https://github.com/zlab-princeton-internal/figure-guide) — it covers font, format, visual style, layout, plots, and more.
 
 
 ## **Numbers & Precision**

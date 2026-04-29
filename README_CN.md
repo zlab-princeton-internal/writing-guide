@@ -147,7 +147,7 @@
 
 ## **图表**
 
-关于图表的内容太多，这里放不下。请参考独立的 [**Figure & Table Guide**](https://github.com/zlab-princeton-internal/figure-guide)——涵盖字体、格式、视觉风格、排版、plot 等。
+图表非常重要，所以单独有一份指南。请参考 [**Figure & Table Guide**](https://github.com/zlab-princeton-internal/figure-guide)——涵盖字体、格式、视觉风格、排版、plot 等。
 
 
 ## **数值与精度**
