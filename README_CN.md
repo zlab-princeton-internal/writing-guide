@@ -34,31 +34,34 @@
 
 ## **结构与行文（段落、章节、叙事）**
 
-**S.1** 大多数段落应为 5-8 行（不含引用）。9 行接近可接受的上限。每个段落应围绕一个要点，读者应能毫不费力地用一句话总结每个段落。做不到就拆分。段落少于 3 行则合并到其他段落。
+**S.1** **默认把 related work 放在 conclusion 之前**，而不是 introduction 后面。大多数情况下这样更好——可以保留从 introduction 到 method 的 motivation flow，不打断叙事。只有当你确实需要 related work 来交代读者必须先了解的背景时，才把它放在 introduction 之后；通常这些背景可以放进 introduction 里。例子参考 [ConvNeXt](https://arxiv.org/abs/2201.03545)，related work 放在了论文末尾。
 
 
-**S.2** Abstract 不要太长。最多 15-17 行（单栏格式）。[这篇论文](https://arxiv.org/pdf/2403.08632) 只有 10 行。
+**S.2** 大多数段落应为 5-8 行（不含引用）。9 行接近可接受的上限。每个段落应围绕一个要点，读者应能毫不费力地用一句话总结每个段落。做不到就拆分。段落少于 3 行则合并到其他段落。
 
 
-**S.3** Section/subsection 标题不要太长，最多 1-4 个词。不要使用 subsubsection。如果需要写总结性的句子，写在正文开头（可以加粗），而不是作为标题。
+**S.3** Abstract 不要太长。最多 15-17 行（单栏格式）。[这篇论文](https://arxiv.org/pdf/2403.08632) 只有 10 行。
 
 
-**S.4** 现阶段不要过度压缩。在最后 *24* 小时之前不要担心 9 页限制。确保版面美观、不拥挤、阅读无压力。
+**S.4** Section/subsection 标题不要太长，最多 1-4 个词。不要使用 subsubsection。如果需要写总结性的句子，写在正文开头（可以加粗），而不是作为标题。
 
 
-**S.5** **不要在 introduction 中放方法层面的细节。** Introduction 应传达高层次的问题、动机和贡献。具体使用哪个数据版本、哪个工具、哪些超参数，属于方法部分。如果读者需要你尚未介绍的背景才能理解 intro 中的某个表述，就把它移到后面。
+**S.5** 现阶段不要过度压缩。在最后 *24* 小时之前不要担心 9 页限制。确保版面美观、不拥挤、阅读无压力。
 
 
-**S.6** **使用引人入胜的、具体的 section 标题，而非笼统的单词标签。** 像 "Analysis"、"Applications"、"Interpretability" 这样的标题模糊且不好记。如果一个 section 有核心问题或发现，就用它作标题。例如：用 "Where Is the Signal?" 代替 "Interpretability"，用 "Grounding Agent Reviews" 代替 "Applications"。问句式标题对分析 section 尤其有效。
+**S.6** **不要在 introduction 中放方法层面的细节。** Introduction 应传达高层次的问题、动机和贡献。具体使用哪个数据版本、哪个工具、哪些超参数，属于方法部分。如果读者需要你尚未介绍的背景才能理解 intro 中的某个表述，就把它移到后面。
 
 
-**S.7** **Conclusion 必须超越 abstract。** 你可以简要重述关键结果，但 conclusion 必须包含 abstract 中没有的 implications、interpretation 或前瞻性讨论。仅仅复述 abstract 的 conclusion 是浪费空间。考虑使用 "Conclusion and Discussion" 作为 section 标题——这自然引导更深入的思考。
+**S.7** **使用引人入胜的、具体的 section 标题，而非笼统的单词标签。** 像 "Analysis"、"Applications"、"Interpretability" 这样的标题模糊且不好记。如果一个 section 有核心问题或发现，就用它作标题。例如：用 "Where Is the Signal?" 代替 "Interpretability"，用 "Grounding Agent Reviews" 代替 "Applications"。问句式标题对分析 section 尤其有效。
 
 
-**S.8** **不要让上一节的单独一行文字溢出到下一页（"widow"）。** 通过改写把它收回来，或把更多文字推过去。
+**S.8** **Conclusion 必须超越 abstract。** 你可以简要重述关键结果，但 conclusion 必须包含 abstract 中没有的 implications、interpretation 或前瞻性讨论。仅仅复述 abstract 的 conclusion 是浪费空间。考虑使用 "Conclusion and Discussion" 作为 section 标题——这自然引导更深入的思考。
 
 
-**S.9** **多展示 failure cases**，尤其是 VLM、VQA、generation 类工作。可以放 appendix，空间够也可以放正文。展示 failures 让论文更可信，也方便读者了解模型实际是什么情况——只展示成功案例的论文反而显得不可信。
+**S.9** **不要让上一节的单独一行文字溢出到下一页（"widow"）。** 通过改写把它收回来，或把更多文字推过去。
+
+
+**S.10** **多展示 failure cases**，尤其是 VLM、VQA、generation 类工作。可以放 appendix，空间够也可以放正文。展示 failures 让论文更可信，也方便读者了解模型实际是什么情况——只展示成功案例的论文反而显得不可信。
 
 
 ## **引用与 Related Work**
@@ -111,9 +114,6 @@
 
 
 **C.13** **确保每条引用的参考文献都真实存在。** `.bib` 文件中的每个条目必须对应一篇真实的、已发表或公开可用的论文。验证标题、作者和年份是否正确——不要依赖 LLM 生成的 bib 条目而不核实。参考文献列表中错误的作者、虚构的标题或不存在的论文是严重错误，会损害可信度。
-
-
-**C.14** **如果 related work 过长，或者它打破了从 introduction 到 method 的 motivation flow，可以考虑把 related work 放到 conclusion 之前。** 默认放在 introduction 之后对大多数论文都没问题，但过长的 related work 会打断叙事节奏。例子参考 [ConvNeXt](https://arxiv.org/abs/2201.03545)，related work 放在了论文末尾。
 
 
 ## **语言风格与语气**

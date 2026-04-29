@@ -34,31 +34,34 @@
 
 ## **Structure & Flow (paragraphs, sections, narrative)**
 
-**S.1** Most of your paragraphs should be 5-8 lines long (excluding citations). 9 lines are close to the maximum acceptable. Each paragraph should be about a single point, and a reader should be able to summarize each paragraph in one short sentence effortlessly. If not, split it. If a paragraph is less than 3 lines, merge it with the other paragraph.
+**S.1** **Place related work before the conclusion by default**, not right after the introduction. In most cases this works better — it preserves the motivation flow from introduction directly into the method, without breaking the narrative. Only put related work after the introduction if you genuinely need it to set up background that the reader cannot follow without; usually that background can fit into the introduction itself. See [ConvNeXt](https://arxiv.org/abs/2201.03545) for an example with related work at the end.
 
 
-**S.2** Don't make the abstract too long. 15-17 lines max (in single column format). [This paper](https://arxiv.org/pdf/2403.08632) only has 10 lines. 
+**S.2** Most of your paragraphs should be 5-8 lines long (excluding citations). 9 lines are close to the maximum acceptable. Each paragraph should be about a single point, and a reader should be able to summarize each paragraph in one short sentence effortlessly. If not, split it. If a paragraph is less than 3 lines, merge it with the other paragraph.
 
 
-**S.3** Do not use too long section/subsection titles, 1-4 words max. Do not use subsubsections. If you need to say a summarizing sentence, say it at the start of the text (maybe bold), not as the title.
+**S.3** Don't make the abstract too long. 15-17 lines max (in single column format). [This paper](https://arxiv.org/pdf/2403.08632) only has 10 lines. 
 
 
-**S.4** Don't try to squeeze things too much now. Don't worry about the 9-page limit until the last *24* hours. Make sure it is good-looking, not too crowded, and can be read without stress.
+**S.4** Do not use too long section/subsection titles, 1-4 words max. Do not use subsubsections. If you need to say a summarizing sentence, say it at the start of the text (maybe bold), not as the title.
 
 
-**S.5** **Do not put method-level details in the introduction.** The intro should convey the high-level problem, motivation, and contributions. Specifics like which data version you use, which tool you apply, or which hyperparameters you choose belong in the method section. If a reader needs context you haven't introduced yet to understand a phrase in your intro, move it later.
+**S.5** Don't try to squeeze things too much now. Don't worry about the 9-page limit until the last *24* hours. Make sure it is good-looking, not too crowded, and can be read without stress.
 
 
-**S.6** **Use engaging, specific section titles instead of generic one-word labels.** Titles like "Analysis," "Applications," or "Interpretability" are vague and forgettable. If a section has a central question or finding, use it as the title. For example: "Where Is the Signal?" instead of "Interpretability," or "Grounding Agent Reviews" instead of "Applications." Question-form titles work especially well for analysis sections.
+**S.6** **Do not put method-level details in the introduction.** The intro should convey the high-level problem, motivation, and contributions. Specifics like which data version you use, which tool you apply, or which hyperparameters you choose belong in the method section. If a reader needs context you haven't introduced yet to understand a phrase in your intro, move it later.
 
 
-**S.7** **The conclusion must go beyond the abstract.** You can briefly restate the key results, but the conclusion must add implications, interpretation, or forward-looking discussion that the abstract does not contain. A conclusion that merely paraphrases the abstract wastes space and reads as filler. Consider using "Conclusion and Discussion" as the section title — this naturally invites deeper reflection and avoids the trap of a pure summary.
+**S.7** **Use engaging, specific section titles instead of generic one-word labels.** Titles like "Analysis," "Applications," or "Interpretability" are vague and forgettable. If a section has a central question or finding, use it as the title. For example: "Where Is the Signal?" instead of "Interpretability," or "Grounding Agent Reviews" instead of "Applications." Question-form titles work especially well for analysis sections.
 
 
-**S.8** **Do not let a single line of text from the previous section spill onto the next page ("widow").** Rewrite to pull it back or push more text forward.
+**S.8** **The conclusion must go beyond the abstract.** You can briefly restate the key results, but the conclusion must add implications, interpretation, or forward-looking discussion that the abstract does not contain. A conclusion that merely paraphrases the abstract wastes space and reads as filler. Consider using "Conclusion and Discussion" as the section title — this naturally invites deeper reflection and avoids the trap of a pure summary.
 
 
-**S.9** **Show failure cases**, especially for VLM, VQA, and generation work. Put them in the appendix (or main body if space allows). Showing failures makes the paper more credible and helps readers see what is actually happening — papers that only show successes look less trustworthy.
+**S.9** **Do not let a single line of text from the previous section spill onto the next page ("widow").** Rewrite to pull it back or push more text forward.
+
+
+**S.10** **Show failure cases**, especially for VLM, VQA, and generation work. Put them in the appendix (or main body if space allows). Showing failures makes the paper more credible and helps readers see what is actually happening — papers that only show successes look less trustworthy.
 
 
 ## **Citations & Related Work**
@@ -111,9 +114,6 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 
 
 **C.13** **Ensure every cited reference actually exists.** Every entry in your `.bib` file must correspond to a real, published or publicly available paper. Verify that the title, authors, and year are correct — do not rely on LLM-generated bib entries without checking. A wrong author, a made-up title, or a non-existent paper in your reference list is a serious error that undermines credibility.
-
-
-**C.14** **Consider placing related work before the conclusion** if it is long, or if it breaks the motivation flow from the introduction to the method. The default placement (right after the introduction) is fine for most papers, but a long related work section can interrupt the narrative momentum. See [ConvNeXt](https://arxiv.org/abs/2201.03545) for an example where related work appears at the end.
 
 
 ## **Language Style & Tone**
