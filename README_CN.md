@@ -55,6 +55,12 @@
 **S.7** **Conclusion 必须超越 abstract。** 你可以简要重述关键结果，但 conclusion 必须包含 abstract 中没有的 implications、interpretation 或前瞻性讨论。仅仅复述 abstract 的 conclusion 是浪费空间。考虑使用 "Conclusion and Discussion" 作为 section 标题——这自然引导更深入的思考。
 
 
+**S.8** **不要让上一节的单独一行文字溢出到下一页（"widow"）。** 通过改写把它收回来，或把更多文字推过去。
+
+
+**S.9** **多展示 failure cases**，尤其是 VLM、VQA、generation 类工作。可以放 appendix，空间够也可以放正文。展示 failures 让论文更可信，也方便读者了解模型实际是什么情况——只展示成功案例的论文反而显得不可信。
+
+
 ## **引用与 Related Work**
 
 **C.1** 确保所有引用精准，即引用与你所说的内容相关，且比你未引用的更相关。确保正确使用 \\citet 和 \\citep：
@@ -139,53 +145,9 @@
 **L.10** **不要在没有引用的情况下声称什么是 "commonly assumed" 或 "widely believed"。** 如果你写 "X is commonly assumed"，reviewer 随时可以问：谁 commonly assume 了？要么给出确立该假设的引用，要么改写以避免该说法。例如，不写 "substantially more than commonly assumed"，而写 "a substantial portion of X is recoverable"。
 
 
-## **图表（设计、可读性、位置）**
+## **图表**
 
-**F.1** 检查图中的图例、标题、刻度、文字大小，确保合适（文字大小应与 caption 相近）。
-
-
-**F.2** 生成图片时裁剪白边，不浪费论文空间。确保图片充分利用左右两侧的可用空间（除非你有意留白）。
-
-
-**F.3** 图片尽量使用 PDF 格式，这样放大时不会损失分辨率。确保图中文字在论文 PDF 中可选中。
-
-
-**F.4** 图中所有文字默认使用 Arial 字体，除非你有意使用其他更美观的字体。任何情况下都不要在图中使用衬线字体（如 Times New Roman）。
-
-
-**F.5** 所有图表必须在正文中至少引用一次。
-
-
-**F.6** 大多数情况下，去掉表格中所有竖线会更美观。参考 *Kaiming* 的论文，表格从不使用竖线。
-
-
-**F.7** 表格和图片的 caption 统一放在下方，不要放上方。即使会议要求放上方也可以忽略。
-
-
-**F.8** 关于图片：
-
-* 推荐配色参考：**\#483e8c**、**\#1b76d2**、**\#dc8969**
-* 其他建议：方框使用纯黑边框，箭头要清晰锐利。
-
-
-**F.9** **Y 轴刻度值必须是整数。** 不要让 matplotlib 根据数据范围自动生成刻度值——像 30.3、71.1、96.9 这样的值不可接受。手动设置为整数刻度（如 30、50、70）。
-
-> **反面示例** — Y 轴刻度是自动生成的小数（30.3、50.8、71.3 等）。同时注意页面顶部上一节溢出的单行文字。
->
-> <img src="examples/bad_yaxis_ticks.png" width="700">
-
-
-**F.10** **不要让上一节的单独一行文字溢出到下一页（"widow"）。** 通过改写把它收回来或把更多文字推过去。参见上方 F.9 的反面示例——那张图的页面顶部也有一行 widow。
-
-
-**F.11** **不要在页面顶部放置窄/稀疏的图，两侧留有大片空白。** 使用 `wrapfigure` 将图嵌入文字旁，或放在页面中间使上下都有文字。
-
-> **反面示例** — 页面顶部一个窄图。
->
-> <img src="examples/bad_sparse_figure.png" width="700">
-
-
-**F.12** **多展示 failure cases**，尤其是 VLM、VQA、generation 类工作。可以放 appendix，空间够也可以放正文。展示 failures 让论文更可信，也方便读者了解模型实际是什么情况——只展示成功案例的论文反而显得不可信。
+关于图表的内容太多，这里放不下。请参考独立的 [**Figure & Table Guide**](https://github.com/zlab-princeton-internal/figure-guide)——涵盖字体、格式、视觉风格、排版、plot 等。
 
 
 ## **数值与精度**

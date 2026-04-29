@@ -55,6 +55,12 @@
 **S.7** **The conclusion must go beyond the abstract.** You can briefly restate the key results, but the conclusion must add implications, interpretation, or forward-looking discussion that the abstract does not contain. A conclusion that merely paraphrases the abstract wastes space and reads as filler. Consider using "Conclusion and Discussion" as the section title — this naturally invites deeper reflection and avoids the trap of a pure summary.
 
 
+**S.8** **Do not let a single line of text from the previous section spill onto the next page ("widow").** Rewrite to pull it back or push more text forward.
+
+
+**S.9** **Show failure cases**, especially for VLM, VQA, and generation work. Put them in the appendix (or main body if space allows). Showing failures makes the paper more credible and helps readers see what is actually happening — papers that only show successes look less trustworthy.
+
+
 ## **Citations & Related Work**
 
 **C.1** Make sure to get all citations precise, i.e., it is relevant to the thing you are saying and also more relevant than the ones you don't cite (i.e., they are relevant and the most relevant). Make sure to use \\citet and \\citep correctly:
@@ -139,53 +145,9 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 **L.10** **Do not make claims about what is "commonly assumed" or "widely believed" without a citation.** If you write "X is commonly assumed," a reviewer can always ask: commonly assumed by whom? Either cite a source that establishes the assumption, or rephrase to avoid the claim. For example, instead of "substantially more than commonly assumed," write "a substantial portion of X is recoverable."
 
 
-## **Figures & Tables (design, readability, placement)**
+## **Figures & Tables**
 
-**F.1** Check legends, titles, ticks, text in figures, and make them the appropriate size (text should be of a similar size to captions).
-
-
-**F.2** Crop the white space of figures when they are generated, so we do not waste space on paper. Ensure your figures utilize all the available white space to the left and right (unless you intentionally leave some space there).
-
-
-**F.3** For figures, use PDF as much as possible so that resolution is not lost when zooming in. Make sure the text in figures is selectable on the paper pdf.
-
-
-**F.4** Use Arial fonts for all text in figures by default, unless you are intentional about using a different, and more good-looking one. Do not use serif fonts (e.g., Times New Roman) in figures in any case. 
-
-
-**F.5** All figures and tables must be referred to at least once in the text.
-
-
-**F.6** In most cases, the table looks nicer after you remove all vertical lines. Look how *Kaiming*'s papers never have vertical lines in tables (see the table below).
-
-
-**F.7** Put table and figure captions all below, not above. It's okay to ignore the conference instructions for this if they tell you otherwise.
-
-
-**F.8** For figures, 
-
-* Some references on colors are: **\#483e8c**, **\#1b76d2**, **\#dc8969**  
-* Some other recommendations: use a pure black border for boxes, a sharp arrow.  
-      
-
-**F.9** **Y-axis tick values must be round numbers.** Do not let matplotlib auto-generate tick values from the data range — values like 30.3, 71.1, 96.9 are not acceptable. Manually set ticks to clean integers (e.g., 30, 50, 70).
-
-> **Bad example** — Y-axis ticks are auto-generated decimals (30.3, 50.8, 71.3, etc.). Also note the widow line at the top of the page.
->
-> <img src="examples/bad_yaxis_ticks.png" width="700">
-
-
-**F.10** **Do not let a single line of text from the previous section spill onto the next page ("widow").** Rewrite to pull it back or push more text forward. See the bad example in F.9 above — there is also a widow line at the top of that page.
-
-
-**F.11** **Do not place a narrow/sparse figure at the top of a page with large whitespace on both sides.** Use `wrapfigure` to embed it alongside text, or place it mid-page with text above and below.
-
-> **Bad example** — A narrow figure at the top of the page.
->
-> <img src="examples/bad_sparse_figure.png" width="700">
-
-
-**F.12** **Show failure cases**, especially for VLM, VQA, and generation work. Put them in the appendix (or main body if space allows). Showing failures makes the paper more credible and helps readers see what is actually happening — papers that only show successes look less trustworthy.
+There is too much to say about figures and tables to fit here. See the dedicated [**Figure & Table Guide**](https://github.com/zlab-princeton-internal/figure-guide) — it covers font, format, visual style, layout, plots, and more.
 
 
 ## **Numbers & Precision**
