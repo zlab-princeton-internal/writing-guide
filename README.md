@@ -4,6 +4,10 @@
 
 [中文版](README_CN.md)
 
+**Related**: [Figure Guide](https://github.com/zlab-princeton-internal/figure-guide) · [Paper Checking Prompt](https://github.com/zlab-princeton-internal/paper-checking-prompt) · [Peer Review System](https://github.com/zlab-princeton-internal/peer-review)
+
+> This guide is intended for [Zhuang Liu](https://liuzhuang13.github.io/)'s group members. Others are welcome to adopt or adapt it for their own use.
+
 **Good writing boosts the paper's contributions to the scientific community by providing more clarity on your messages. For your own benefit, good writing helps the work disseminate, and it is often a night-and-day difference. You've put in months of hard work on the project, and it is absolutely worth it to improve the writing by following this guide.**
 
 **1\. Please read through this guide before you start writing, so we get it right the first time.**   

@@ -4,6 +4,10 @@
 
 [English Version](README.md)
 
+**相关**: [Figure Guide](https://github.com/zlab-princeton-internal/figure-guide) · [Paper Checking Prompt](https://github.com/zlab-princeton-internal/paper-checking-prompt) · [Peer Review System](https://github.com/zlab-princeton-internal/peer-review)
+
+> 本指南面向 [Zhuang Liu](https://liuzhuang13.github.io/) 组内成员。欢迎其他人参考或改编使用。
+
 **好的写作能让论文的贡献更清晰地传达给学术社区。对你个人而言，好的写作有助于成果的传播，效果常常是天壤之别。你已经在项目上投入了数月的心血，花时间按照本指南提升写作质量是完全值得的。**
 
 **1\. 请在开始写作前通读本指南，争取一次做对。**
