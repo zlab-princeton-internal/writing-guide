@@ -180,6 +180,9 @@
 > <img src="examples/bad_sparse_figure.png" width="700">
 
 
+**F.12** **多展示 failure cases**，尤其是 VLM、VQA、generation 类工作。可以放 appendix，空间够也可以放正文。展示 failures 让论文更可信，也方便读者了解模型实际是什么情况——只展示成功案例的论文反而显得不可信。
+
+
 ## **数值与精度**
 
 **N.1** 使用合适的精度。绝大多数情况下，81.23% 是不必要的，写 81.2% 即可。

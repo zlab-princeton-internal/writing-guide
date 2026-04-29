@@ -180,6 +180,9 @@ Cite in time order if multiple (A et al. 2023; B et al. 2025).
 > <img src="examples/bad_sparse_figure.png" width="700">
 
 
+**F.12** **Show failure cases**, especially for VLM, VQA, and generation work. Put them in the appendix (or main body if space allows). Showing failures makes the paper more credible and helps readers see what is actually happening — papers that only show successes look less trustworthy.
+
+
 ## **Numbers & Precision**
 
 **N.1** Use the right precision for results. In almost all cases, 81.23% is not necessary; just do 81.2%.
