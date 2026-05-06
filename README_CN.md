@@ -64,6 +64,9 @@
 **S.10** **多展示 failure cases**，尤其是 VLM、VQA、generation 类工作。可以放 appendix，空间够也可以放正文。展示 failures 让论文更可信，也方便读者了解模型实际是什么情况——只展示成功案例的论文反而显得不可信。
 
 
+**S.11** **不要有只包含一个 subsection 的 section。** 孤零零的 subsection 没有意义——要么去掉 subsection 标题把内容直接合并进 section，要么至少再加一个 subsection。
+
+
 ## **引用与 Related Work**
 
 **C.1** 确保所有引用精准，即引用与你所说的内容相关，且比你未引用的更相关。确保正确使用 \\citet 和 \\citep：

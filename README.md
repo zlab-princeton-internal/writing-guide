@@ -64,6 +64,9 @@
 **S.10** **Show failure cases**, especially for VLM, VQA, and generation work. Put them in the appendix (or main body if space allows). Showing failures makes the paper more credible and helps readers see what is actually happening — papers that only show successes look less trustworthy.
 
 
+**S.11** **Do not have a section that contains only one subsection.** A lone subsection is pointless — either remove the subsection heading and merge the content into the section directly, or add at least one more subsection.
+
+
 ## **Citations & Related Work**
 
 **C.1** Make sure to get all citations precise, i.e., it is relevant to the thing you are saying and also more relevant than the ones you don't cite (i.e., they are relevant and the most relevant). Make sure to use \\citet and \\citep correctly:
