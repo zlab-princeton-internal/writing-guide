@@ -4,7 +4,7 @@
 
 [中文版](README_CN.md)
 
-**Related**: [Figure Guide](https://github.com/zlab-princeton-internal/figure-guide) · [AI Paper Checking](https://github.com/zlab-princeton-internal/ai-paper-checking) · [Peer Review System](https://github.com/zlab-princeton-internal/peer-review)
+**Related**: [Figure Guide](https://github.com/zlab-princeton-internal/figure-guide) · [AI Paper Checking](https://github.com/zlab-princeton-internal/ai-paper-checking) · [Peer Review System](https://github.com/zlab-princeton-internal/peer-review) · [Writing Self-Review](https://github.com/zlab-princeton-internal/paper-rating)
 
 > This guide is intended for [Zhuang Liu](https://liuzhuang13.github.io/)'s group members. Others are welcome to adopt or adapt it for their own use.
 
