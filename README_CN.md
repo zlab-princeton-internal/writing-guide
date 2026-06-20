@@ -329,6 +329,10 @@
 
 **D.4 Project website 或 blog。** 做一个 project website、一篇 blog，或两者都做。如果只做一个，通常 **blog** 更好。
 
+**D.5 Marketing video。** 如果适用，用 PowerPoint 录制一个约 5 分钟的 slides 讲解，上传到 YouTube。
+
+**D.6 Talks。** 接受 invited talks，并主动争取去各种 seminar、reading group 等场合介绍你的工作。
+
 
 ## **实用 LaTeX 命令**
 
@@ -353,4 +357,4 @@
 - **拆分复合条目**：部分条目包含多个要点，拆分为独立条目。
 - **添加更多示例**：为更多规则添加正反示例（可折叠）。
 - **Figure guide 独立**：将图表相关规则（F.*）移至单独的 Figure Guide 文档。
-- **Dissemination 示例**：为 Dissemination 部分（D.1-D.4）补充好的 example——尤其是好的 blog、好的 Twitter/X thread、好的 project website。
+- **Dissemination 示例**：为 Dissemination 部分（D.*）补充好的 example——尤其是好的 blog、好的 Twitter/X thread、好的 project website。等成熟之后，考虑把 Dissemination 单独分出一个文档。

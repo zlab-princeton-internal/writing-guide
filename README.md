@@ -329,6 +329,10 @@ This is very important. Increasingly, people read materials other than the paper
 
 **D.4 Project website or blog.** Make a project website, a blog post, or both. If you only do one, a **blog** is usually the better choice.
 
+**D.5 Marketing video.** If applicable, make a short (~5 min) slides presentation recorded with PowerPoint and upload it to YouTube.
+
+**D.6 Talks.** Accept invited talks, and proactively get yourself invited to seminars, reading groups, and other venues to present the work.
+
 
 ## **Useful LaTeX commands:**
 
@@ -353,4 +357,4 @@ This is very important. Increasingly, people read materials other than the paper
 - **Split compound rules**: Some rules currently cover multiple points — split them into separate items.
 - **Add more examples**: Add bad/good examples for more rules (collapsible).
 - **Figure guide**: Move figure-related rules (F.*) into a separate Figure Guide document.
-- **Dissemination examples**: Add good examples for the Dissemination section (D.1-D.4) — especially a good blog post, a good Twitter/X thread, and a good project website.
+- **Dissemination examples**: Add good examples for the Dissemination section (D.*) — especially a good blog post, a good Twitter/X thread, and a good project website. Once mature, consider splitting Dissemination into its own document.
