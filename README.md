@@ -317,6 +317,19 @@ C.5 Use Claude Code for better code file organization & naming, and repo naming.
 C.6 Use Claude Code for better readme structure. 
 
 
+## **Dissemination**
+
+Many students do not realize how much these matter. When your paper goes public (arXiv release / acceptance), prepare the following to help the work reach people. *(Examples to be added.)*
+
+**D.1 GitHub code release.** Release code and models under the lab accounts. See the Code Release section above.
+
+**D.2 Twitter/X thread.** Draft a thread in [Typefully](https://typefully.com/). Have it reviewed by Zhuang **and the other collaborators** before posting.
+
+**D.3 LinkedIn post.** Post about the work on LinkedIn. If you do not have a LinkedIn account, send it to Zhuang to repost.
+
+**D.4 Project website or blog.** Make a project website, a blog post, or both. If you only do one, a **blog** is usually the better choice.
+
+
 ## **Useful LaTeX commands:**
 
 * Set paragraph indent:   

@@ -317,6 +317,19 @@
 **C.6** 使用 Claude Code 优化 README 结构。
 
 
+## **传播（Dissemination）**
+
+很多学生没意识到这些有多重要。论文公开时（arXiv 发布 / 录用），准备好以下材料，帮助工作触达更多人。*（example 待补充。）*
+
+**D.1 GitHub 代码发布。** 在实验室账号下发布代码和模型。见上方 Code Release 部分。
+
+**D.2 Twitter/X thread。** 用 [Typefully](https://typefully.com/) 起草 thread。发布前找 Zhuang **以及其他合作者**过一遍。
+
+**D.3 LinkedIn post。** 在 LinkedIn 上发一条介绍工作的 post。如果没有 LinkedIn 账号，发给 Zhuang 帮你 repost。
+
+**D.4 Project website 或 blog。** 做一个 project website、一篇 blog，或两者都做。如果只做一个，通常 **blog** 更好。
+
+
 ## **实用 LaTeX 命令**
 
 * 设置段落缩进：
