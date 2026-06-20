@@ -329,7 +329,7 @@ This is very important. Increasingly, people read materials other than the paper
 
 **D.4 Project website or blog.** Make a project website, a blog post, or both. If you only do one, a **blog** is usually the better choice.
 
-**D.5 Presentation video.** Make a short (~5 min) slides presentation recorded with PowerPoint and upload it to YouTube. This is broadly applicable to most papers. Optionally, a high-quality, ad-style **marketing video** can also be made, but that is only worth it for a small number of papers.
+**D.5 Presentation video.** Make a short (~5 min) slides presentation recorded with PowerPoint and upload it to YouTube. This is broadly applicable to most papers. Optionally, a high-quality, ad-style **marketing video** can also be made, depending on the type of project (it suits some kinds of work more than others).
 
 **D.6 Talks.** Accept invited talks, and proactively get yourself invited to seminars, reading groups, and other venues to present the work.
 

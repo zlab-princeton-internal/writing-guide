@@ -329,7 +329,7 @@
 
 **D.4 Project website 或 blog。** 做一个 project website、一篇 blog，或两者都做。如果只做一个，通常 **blog** 更好。
 
-**D.5 Presentation video。** 用 PowerPoint 录制一个约 5 分钟的 slides 讲解，上传到 YouTube。这个普遍适合大多数论文。此外也可以做一个广告级、高质量的 **marketing video**，但那种只有少数论文值得做。
+**D.5 Presentation video。** 用 PowerPoint 录制一个约 5 分钟的 slides 讲解，上传到 YouTube。这个普遍适合大多数论文。此外也可以做一个广告级、高质量的 **marketing video**，是否适合主要看项目种类（有些类型的工作更适合）。
 
 **D.6 Talks。** 接受 invited talks，并主动争取去各种 seminar、reading group 等场合介绍你的工作。
 
