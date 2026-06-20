@@ -353,3 +353,4 @@ This is very important. Increasingly, people read materials other than the paper
 - **Split compound rules**: Some rules currently cover multiple points — split them into separate items.
 - **Add more examples**: Add bad/good examples for more rules (collapsible).
 - **Figure guide**: Move figure-related rules (F.*) into a separate Figure Guide document.
+- **Dissemination examples**: Add good examples for the Dissemination section (D.1-D.4) — especially a good blog post, a good Twitter/X thread, and a good project website.

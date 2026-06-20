@@ -353,3 +353,4 @@
 - **拆分复合条目**：部分条目包含多个要点，拆分为独立条目。
 - **添加更多示例**：为更多规则添加正反示例（可折叠）。
 - **Figure guide 独立**：将图表相关规则（F.*）移至单独的 Figure Guide 文档。
+- **Dissemination 示例**：为 Dissemination 部分（D.1-D.4）补充好的 example——尤其是好的 blog、好的 Twitter/X thread、好的 project website。
