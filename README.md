@@ -323,7 +323,7 @@ This is very important. Increasingly, people read materials other than the paper
 
 **D.1 GitHub code release.** Release code and models under the lab accounts. See the Code Release section above.
 
-**D.2 Twitter/X thread.** Draft a thread in [Typefully](https://typefully.com/). Have it reviewed by your **collaborators** (and the PI) before posting.
+**D.2 Twitter/X thread.** Draft a thread in [Typefully](https://typefully.com/). Have it reviewed by your **collaborators** (and the PI) before posting. Do not put a link in the first tweet — the algorithm penalizes posts with external links. Use a paper screenshot (e.g., the first page) in the first tweet, and put links in a reply.
 
 **D.3 LinkedIn post.** Post about the work on LinkedIn. If you do not have a LinkedIn account, send it to the PI to repost.
 

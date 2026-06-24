@@ -323,7 +323,7 @@
 
 **D.1 GitHub 代码发布。** 在实验室账号下发布代码和模型。见上方 Code Release 部分。
 
-**D.2 Twitter/X thread。** 用 [Typefully](https://typefully.com/) 起草 thread。发布前找**合作者**（以及 PI）过一遍。
+**D.2 Twitter/X thread。** 用 [Typefully](https://typefully.com/) 起草 thread。发布前找**合作者**（以及 PI）过一遍。第一条推文里不要放链接——算法会 penalize 带外链的帖子。第一条用 paper 截图（比如首页），链接放到回复里。
 
 **D.3 LinkedIn post。** 在 LinkedIn 上发一条介绍工作的 post。如果没有 LinkedIn 账号，发给 PI 帮你 repost。
 
